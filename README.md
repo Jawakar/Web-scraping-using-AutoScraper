@@ -102,9 +102,7 @@ if __name__=='__main__':
 ```
 </br>
 
-By running this code, the API server will be up listening on port 8080. So let’s test our API by opening http://localhost:8080/?q=JBLspeaker in our browser.
-
-</br>The screenshot below is a validated JSON output from the created API.
+The screenshot below is a validated JSON output from the created API.
 
 ![JSON_JBL_Output](https://user-images.githubusercontent.com/52590526/116808190-18b4bd00-ab55-11eb-941f-0d5d8b1c5b11.JPG)
 </br></br>
@@ -116,6 +114,8 @@ Just replace `JBLspeaker` in the URL with any other query to get its search resu
 This is like a `search engine` which will help us to find out the `title`, `imageURL` and `price` of the product we search for.</br>
 And you can validate the JSON and thereby can upload it to our databases.
 </br>
+</br>
+You could also scrape data to a csv file by going through my blog. [click here to visit my blog](https://medium.com/@jawakarselvavinayagam/scrape-data-from-web-to-csv-in-minutes-dfbaa1e8775d)
 
 ## Acknowledgment
 I thank [Alirezamika](https://github.com/alirezamika/autoscraper) for creating this wonderful library which makes our works easier when it comes to scraping the data.
